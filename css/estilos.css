@@ -1,0 +1,106 @@
+#container{
+	width:700px;
+	height:auto;
+	position:relative;
+	margin-left:auto;  /* 4-MARGENS (CENTRALIZAR) */
+	margin-right:auto; /* 4-MARGENS (CENTRALIZAR) */
+}
+
+#titulo{
+	width:700px;
+	height:50px;
+	text-align:center;
+	position:relative;
+}
+
+#fundoGame{
+	width:700px;
+	height:525px;
+	background-image:url(../img/fundo_game.png);
+	border-color:#FFF;
+	border-style:solid;
+	position:relative;
+}
+
+#placar {
+	width:700px;
+	height:50px;
+	text-align:center;
+	position:relative;
+}
+
+/* 2-Estilo dos Objetos */
+
+#jogador {
+	width: 100px;
+	height: 45px;
+	left: 55px;
+	top: 222px;
+	position: absolute;
+	background-image: url(../img/jogador1.png);
+}
+#inimigo1 {
+	width: 88px;
+	height: 54px;
+	background-image: url(../img/inimigo1.png);
+	left: 588px;
+	top: 348px;
+	position: absolute;
+}
+#inimigo2 {
+	width: 100px;
+	height: 42px;
+	background-image: url(../img/inimigo2.png);
+	left: 585px;
+	top: 184px;
+	position: absolute;
+}
+#tiro {
+	width: 50px;
+	height: 14px;
+	background-image: url(../img/tiro.gif);
+	left: 157px;
+	top: -27px;
+	position: absolute;
+}
+#energia {
+	width:44px;
+	height:57px;
+	background-image:url(../img/energia_4.png);
+	left:8px;
+	top:503px;
+	position:absolute;
+}
+#explosao1 {
+	width:70px;
+	height:23px;
+	background-image:url(../img/explosao.png);
+	left:8px;
+	top:503px;
+	position:absolute;
+}
+#explosao2 {
+	width:100px;
+	height:100px;
+	background-image:url(../img/explosao.jpg);
+	left:147px;
+	top:411px;
+	position:absolute;
+}
+
+/* 3-Estilo das Fontes */
+
+@font-face{
+		font-family:titulo;
+		src:url(../font/FACERG__.TTF);
+}
+
+body{
+	background-image:url(../img/fundo.png);
+}
+
+h1{
+	font-family:titulo;
+	size:80px;
+	color:#fff;
+}
